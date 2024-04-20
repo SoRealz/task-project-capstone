@@ -12,5 +12,8 @@
   "description": "",
   "devDependencies": {
     "express": "^4.19.2"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1"
   }
 }
