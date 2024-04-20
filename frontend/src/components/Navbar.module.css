@@ -1,0 +1,55 @@
+header {
+    padding-bottom: 15px;
+    background-color: var(--clr--blue-600);
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+
+    box-shadow: 2px 2px 4px var(--clr--blue-300);
+}
+
+header h1 {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.nav-info {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-info nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--clr--red-600);
+}
+.nav-info nav a.active {
+    background-color: var(--clr--green-600);
+}
+.nav-info nav a:hover {
+    background-color: var(--clr--green-300);
+}
+.user-info {
+    display: flex;
+    margin-right: 1rem;
+    background-color: var(--clr--green-600);
+}
+.user-info p {
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.user-info button {
+    color: white;
+    padding: 10px;
+    margin: 0;
+    border: none;
+    background-color: var(--clr--red-300);
+}
+
+.user-info button:hover {
+    background-color: var(--clr--red-600);
+    cursor: pointer;
+}
